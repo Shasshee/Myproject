@@ -7,16 +7,22 @@
     <style>
         @keyframes topics{
             from{
-                left: 0px;
+                background-color: white;
             }
             to{
-                left: 100px;
+                background-color: orange;
             }
         }
         div:hover{
+            background-color: gold;
+            width: 100px;
             position: relative;
             animation-name: topics;
             animation-duration: 5s;
+            /* animation-delay: 2s; */
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease;
         }
     </style>
 </head>
